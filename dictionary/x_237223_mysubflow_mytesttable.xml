@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="MyTestTable" max_length="40" name="x_237223_mysubflow_mytesttable" type="collection">
+        <element label="appname" max_length="40" name="appname" type="string"/>
+        <element label="destip" max_length="40" name="destip" type="string"/>
+        <element label="dno" max_length="40" name="dno" type="string"/>
+        <element label="enddate" max_length="40" name="enddate" type="glide_date_time"/>
+        <element choice="1" label="osname" max_length="40" name="osname" type="choice">
+            <choice/>
+        </element>
+        <element label="poc" max_length="40" name="poc" type="string"/>
+        <element label="startdate" max_length="40" name="startdate" type="glide_date_time"/>
+        <element label="username" max_length="40" name="username" type="string"/>
+    </element>
+</database>
